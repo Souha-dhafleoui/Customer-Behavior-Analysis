@@ -1,6 +1,5 @@
 # Customer Behavior Analysis - Business Intelligence Project
 
-![Star Schema](documentation/star_schema.png)
 
 ##  Project Overview
 A comprehensive Business Intelligence project analyzing customer purchasing behavior using ETL workflows, SQL analysis, and Power BI visualization. The project integrates multi-source customer data to uncover insights for segmentation and strategic business recommendations.
@@ -65,5 +64,6 @@ secure-file-app/
 - Review rating patterns
 - Size and color preferences by category
 - Customer lifetime value analysis
+
 
 
