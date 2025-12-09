@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Connect to the SQLite database
-db_path = 'C:/Users/mariem ben slama/BIproject/data/final data/customer_behavior.db'
+db_path = '../data/final data/customer_behavior.db'
 connection = sqlite3.connect(db_path)
 
 '''-----------------------------------------CUSTOMER BEHAVIOR ANALYSIS-----------------------------------------------'''

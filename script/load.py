@@ -2,13 +2,13 @@ import sqlite3
 import pandas as pd
 
 # File paths to the CSV files
-fact_table_file = 'C:/Users/mariem ben slama/BIproject/data/final data/fact_table.csv'
-customer_dim_file = 'C:/Users/mariem ben slama/BIproject/data/final data/customer_dim.csv'
-product_dim_file = 'C:/Users/mariem ben slama/BIproject/data/final data/product_dim.csv'
-date_dim_file = 'C:/Users/mariem ben slama/BIproject/data/final data/date_dim.csv'
+fact_table_file = '../data/final data/fact_table.csv'
+customer_dim_file = '../data/final data/customer_dim.csv'
+product_dim_file = '../data/final data/product_dim.csv'
+date_dim_file = '../data/final data/date_dim.csv'
 
 #Create customer_behavior Database
-customer_behavior= 'C:/Users/mariem ben slama/BIproject/data/final data/customer_behavior.db'
+customer_behavior= '../data/final data/customer_behavior.db'
 connection = sqlite3.connect(customer_behavior)
 cursor = connection.cursor()
 

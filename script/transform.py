@@ -2,9 +2,9 @@ import pandas as pd
 from script.extract import extract_csv, extract_json, extract_excel
 
 #EXTRACTION OF DATASETS:
-purchases = extract_csv('C:/Users/mariem ben slama/BIproject/data/raw data/purchase_records.csv')
-customerRelation = extract_json('C:/Users/mariem ben slama/BIproject/data/raw data/customer_relation.json')
-customerInfo = extract_excel('C:/Users/mariem ben slama/BIproject/data/raw data/customer_info.xlsx')
+purchases = extract_csv('../data/raw data/purchase_records.csv')
+customerRelation = extract_json('../data/raw data/customer_relation.json')
+customerInfo = extract_excel('../data/raw data/customer_info.xlsx')
 
 #checking datasets
 print(purchases)
@@ -124,8 +124,8 @@ print(product_dim.head())
 print(date_dim.head())
 
 #save datasets to final data folder
-cleaned_data.to_csv('C:/Users/mariem ben slama/BIproject/data/final data/cleaned_data.csv', index=False)
-fact_table.to_csv('C:/Users/mariem ben slama/BIproject/data/final data/fact_table.csv', index=False)
-customer_dim.to_csv('C:/Users/mariem ben slama/BIproject/data/final data/customer_dim.csv', index=False)
-product_dim.to_csv('C:/Users/mariem ben slama/BIproject/data/final data/product_dim.csv', index=False)
-date_dim.to_csv('C:/Users/mariem ben slama/BIproject/data/final data/date_dim.csv', index=False)
+cleaned_data.to_csv('../data/final data/cleaned_data.csv', index=False)
+fact_table.to_csv('../data/final data/fact_table.csv', index=False)
+customer_dim.to_csv('../data/final data/customer_dim.csv', index=False)
+product_dim.to_csv('../data/final data/product_dim.csv', index=False)
+date_dim.to_csv('../data/final data/date_dim.csv', index=False)
