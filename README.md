@@ -27,14 +27,20 @@ Raw Data Sources → ETL Process → Star Schema → SQL Analysis → Power BI V
 
 ##  Project Structure
 ```text
-secure-file-app/
-│── encrypted_files/
-│── decrypted_files/
-│── hashes/
-│── users.json
-│── main.py
-│── FileGuardian.exe
-└── README.md
+BI-Customer-Behavior-Analysis/
+├── scripts/
+│ ├── extract.py # Data extraction functions
+│ ├── transform.py # Data cleaning and transformation
+│ ├── load.py # Database creation and loading
+│ └── ROLAP_customer_Behavior.py # SQL analysis queries
+├── data/
+│ ├── raw data/ # Original data files
+│ └── final data/ # Processed data files
+├── documentation/
+│ └── star_schema.png # Database schema diagram
+├── .gitignore # Git exclusion rules
+├── requirements.txt # Project's dependencies
+└── README.md # Project documentation
 ```
 ---
 
@@ -68,6 +74,7 @@ secure-file-app/
 - Review rating patterns
 - Size and color preferences by category
 - Customer lifetime value analysis
+
 
 
 
