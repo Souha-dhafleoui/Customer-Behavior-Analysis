@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+
+# Data files (optional - exclude large files)
+data/raw data/*
+data/final data/*
+!data/raw data/.gitkeep
+!data/final data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
