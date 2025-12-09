@@ -10,6 +10,8 @@ A comprehensive Business Intelligence project analyzing customer purchasing beha
 - Perform in-depth customer behavior analysis using SQL
 - Generate actionable insights through Power BI dashboards
 - Provide data-driven recommendations for marketing and sales strategies
+  
+---
 
 ##  Project Architecture
 
@@ -45,6 +47,8 @@ secure-file-app/
 - **Power BI**: Data visualization and dashboarding
 - **Git**: Version control
 
+---
+
 ##  Key Analyses Performed
 
 ### Customer Demographics Analysis
@@ -64,6 +68,7 @@ secure-file-app/
 - Review rating patterns
 - Size and color preferences by category
 - Customer lifetime value analysis
+
 
 
 
