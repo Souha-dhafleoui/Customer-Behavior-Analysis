@@ -2,17 +2,17 @@
 
 ![Star Schema](documentation/star_schema.png)
 
-## 📊 Project Overview
+##  Project Overview
 A comprehensive Business Intelligence project analyzing customer purchasing behavior using ETL workflows, SQL analysis, and Power BI visualization. The project integrates multi-source customer data to uncover insights for segmentation and strategic business recommendations.
 
-## 🎯 Key Objectives
+##  Key Objectives
 - Build an ETL pipeline to integrate data from multiple sources
 - Create a star schema data warehouse
 - Perform in-depth customer behavior analysis using SQL
 - Generate actionable insights through Power BI dashboards
 - Provide data-driven recommendations for marketing and sales strategies
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ### Data Pipeline
 Raw Data Sources → ETL Process → Star Schema → SQL Analysis → Power BI Visualization
@@ -22,23 +22,23 @@ Raw Data Sources → ETL Process → Star Schema → SQL Analysis → Power BI V
 2. **Customer Information** (Excel) - Demographic data
 3. **Customer Relations** (JSON) - Behavioral data
 
-## 📁 Project Structure
-BI-Customer-Behavior-Analysis/
-├── scripts/
-│ ├── extract.py # Data extraction functions
-│ ├── transform.py # Data cleaning and transformation
-│ ├── load.py # Database creation and loading
-│ └── ROLAP_customer_Behavior.py # SQL analysis queries
-├── data/
-│ ├── raw data/ # Original data files
-│ └── final data/ # Processed data files
-├── star_schema.png # Database schema diagram
-├── .gitignore # Git exclusion rules
-├── requirements.txt # Project's dependencies
-└── README.md # Project documentation
+---
+
+##  Project Structure
+```text
+secure-file-app/
+│── encrypted_files/
+│── decrypted_files/
+│── hashes/
+│── users.json
+│── main.py
+│── FileGuardian.exe
+└── README.md
+```
+---
 
 
-## 🔧 Technologies Used
+##  Technologies Used
 - **Python 3.x**: Data processing and ETL
 - **Pandas**: Data manipulation and cleaning
 - **SQLite3**: Relational database management
@@ -46,7 +46,7 @@ BI-Customer-Behavior-Analysis/
 - **Power BI**: Data visualization and dashboarding
 - **Git**: Version control
 
-## 📈 Key Analyses Performed
+##  Key Analyses Performed
 
 ### Customer Demographics Analysis
 - Subscription status impact on purchasing patterns
@@ -65,4 +65,5 @@ BI-Customer-Behavior-Analysis/
 - Review rating patterns
 - Size and color preferences by category
 - Customer lifetime value analysis
+
 
