@@ -39,7 +39,6 @@ BI-Customer-Behavior-Analysis/
 ├── documentation/
 │ └── star_schema.png # Database schema diagram
 ├── .gitignore # Git exclusion rules
-├── requirements.txt # Project's dependencies
 └── README.md # Project documentation
 ```
 ---
@@ -74,6 +73,7 @@ BI-Customer-Behavior-Analysis/
 - Review rating patterns
 - Size and color preferences by category
 - Customer lifetime value analysis
+
 
 
 
